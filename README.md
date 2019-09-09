@@ -1,2 +1,3 @@
 # python-course
-A repo with python example codes
+
+A repo with python examples
