@@ -4,7 +4,7 @@
 # By putting if, for, and while statements
 # you can controll how code gets executed.
 
-# Note! python does not use curly bracelets for wrapping
+# Note! python does not use curly brackets for wrapping
 # statements like if, for, while and functions.
 # Python use only indentations. Like it or not, thats the syntax!
 

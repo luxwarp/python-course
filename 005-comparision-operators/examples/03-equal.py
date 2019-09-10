@@ -15,4 +15,4 @@ print("'1' equal to 1:", "1" == 1)  # False
 
 # not equal to
 print("1 not equal to 2:", 1 != 2)  # True
-print("2 not equal to 2:", 2 != 2)  # False
+print("2 not equal to 2:", not 2 == 2)  # False
