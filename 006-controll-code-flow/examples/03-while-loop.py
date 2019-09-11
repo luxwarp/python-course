@@ -8,16 +8,15 @@
 # statements like if, for, while and functions.
 # Python use only indentations. Like it or not, thats the syntax!
 
-# for loops is used to iterate through for example a list.
+# While loops is used to run some code as long as some condition is True
 
-awesome_list = [1, 2, 3, 4, 5, 6, 7]
+number = 0
 
-for item in awesome_list:
-    print(item)
+while number < 3:
+    print(f"Hey number: {number} is less then 3.")
+    number += 1
 
-# now you don't need to use the item variable. You can use
-# the iterateable items just to create a loop and
-# maybe print out hello 7 times.
-
-for item in awesome_list:
-    print("hello")
+# Watch out for infinity loops, they will run for ever.
+# this is a common misstake for everyone.
+# while True:
+#     print("Infinity loop. Watch out!")
